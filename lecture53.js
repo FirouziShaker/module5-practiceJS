@@ -27,5 +27,8 @@ var name =
         }
 }
 // unobstrusive event binding
+//document.querySelector("button")
+//.addEventListener("click", sayHello)
+
 document.querySelector("button")
-.addEventListener("click", sayHello)
+.onclick= sayHello;
