@@ -32,3 +32,14 @@ document.querySelector("button")
 
 //document.querySelector("button")
 //.onclick= sayHello;
+
+document.querySelector("body")
+.addEventListener("mousemove",
+function(event){
+    if(event.shifftkey===true){
+        console.log("x:" + event.clientX);
+        console.log("y:" + event.clientY);
+
+    }
+}
+);
