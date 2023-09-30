@@ -4,7 +4,7 @@
 //console.log(document instanceof HTMLDucument);
 
 function sayHello(){
-    console.log(this);
+this.textContent="Said it!"; 
 var name =
         document.getElementById("name").value;
         var message="<h2>Hello " + name +"!</h2>";
@@ -27,8 +27,8 @@ var name =
         }
 }
 // unobstrusive event binding
-//document.querySelector("button")
-//.addEventListener("click", sayHello)
-
 document.querySelector("button")
-.onclick= sayHello;
+.addEventListener("click", sayHello)
+
+//document.querySelector("button")
+//.onclick= sayHello;
