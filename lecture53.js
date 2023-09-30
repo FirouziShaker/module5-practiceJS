@@ -13,4 +13,15 @@ var name =
 
         document.getElementById("content")
         .innerHTML=message;
+
+        if(name=== "student"){
+            var title=
+            document
+             .querySelector("#title")
+             .textContent;
+             title +=" & Lovin' it!"
+             document
+             .querySelector("#title")
+             .textContent=title;
+        }
 }
