@@ -21,7 +21,7 @@ var name =
              .textContent;
              title +=" & Lovin' it!"
              document
-             .querySelector("#title")
+             .querySelector("h1")
              .textContent=title;
         }
 }
