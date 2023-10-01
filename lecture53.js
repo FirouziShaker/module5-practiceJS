@@ -3,6 +3,8 @@
 
 //console.log(document instanceof HTMLDucument);
 
+(function(global){
+
 function sayHello(){
 this.textContent="Said it!"; 
 var name =
@@ -43,3 +45,5 @@ function(event){
     }
 }
 );
+
+})(window);
